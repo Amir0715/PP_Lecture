@@ -8,8 +8,10 @@ namespace ConsoleApp1.Entities
 {
     public class Car
     {
-        private Car()
+        private string _color;
+        private Car(string color)
         {
+            _color= color; 
         }
     }
 }
