@@ -9,7 +9,7 @@ namespace ConsoleApp1.Entities
     public class Car
     {
         private string _color;
-        private Car(string color)
+        public Car(string color)
         {
             _color= color; 
         }

@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using ConsoleApp1;
+using ConsoleApp1.Entities;
 
 Console.WriteLine("Hello, World!");
 
@@ -75,3 +76,5 @@ Console.WriteLine(warAndPeace.Author);
 
 warAndPeace.Sum(10, 20, out var result);
 Console.WriteLine(result);
+
+var car = new Car("RED");
